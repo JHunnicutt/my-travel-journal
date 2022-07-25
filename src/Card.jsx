@@ -13,7 +13,6 @@ export default function Card(props) {
                 <h3 className="card__title">{props.data.title}</h3>
                 <p className="card__date">{props.data.startDate} - {props.data.endDate}</p>
                 <p className="card__description">{props.data.description}</p>
-                
             </div>
         </section>
     )
