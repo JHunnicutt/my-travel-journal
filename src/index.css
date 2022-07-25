@@ -8,14 +8,10 @@ body {
   font-family: 'Inter';
 }
 
-.container {
+main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-}
-
-main {
-  width: 100%;
+  align-items: center;
 }
 
 /* header */
