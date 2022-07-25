@@ -1,9 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 
+/* body styles */
+
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Inter';
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main {
+  width: 100%;
+}
+
+/* header */
 
 header {
   background-color: #F55A5A;
@@ -17,8 +32,67 @@ header {
 
 .main-heading {
   margin: 0;
-  font-family: 'Inter';
   font-weight: 500;
   font-size: 18px;
   color: #fff;
+}
+
+/* card */
+.card {
+  padding: 18px 40px;
+  width: 550px;
+  display: flex;
+  font-size: 10px;
+  border-bottom: 1px solid #F5F5F5;
+}
+
+/* card image */
+
+.card__img {
+  width: 125px;
+  height: 168px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* card info */
+
+.card__info {
+  margin-left: 19px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card__location {
+  display: flex;
+  column-gap: 12px;
+  text-transform: uppercase;
+}
+
+.card__location>h4 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 3px
+}
+
+.card__location>a {
+  color: #918E9B;
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+.card__title {
+  font-weight: 700;
+  font-size: 25px;
+  margin: 4px 0;
+}
+
+.card__date {
+  font-weight: 700;
+}
+
+.card__description {
+  margin: 5px 0;
 }
